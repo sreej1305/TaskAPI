@@ -223,7 +223,7 @@ export default function HomePage() {
       <footer className="border-t border-purple-200 bg-white/80 backdrop-blur-md py-8 mt-16">
         <div className="mx-auto max-w-7xl px-4 text-center text-sm text-gray-600 sm:px-6 lg:px-8">
           <p className="font-medium">
-            Full Stack Application - Built with ❤️ using Next.js & PostgreSQL
+            Full Stack Application - Built with ❤️ using React Router & PostgreSQL
           </p>
         </div>
       </footer>
