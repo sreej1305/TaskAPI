@@ -1,48 +1,33 @@
 # TaskAPI
 
-A production-ready AI full-stack web application built with React Router, Vite, and Hono.
+A high-performance, production-ready AI full-stack web application designed for scalability and security. This project serves as a comprehensive demonstration of a modern RESTful API architecture integrated with a sleek, responsive frontend.
 
-## Features
+## Project Overview
 
-- **Authentication**: Secure JWT-based auth with Argon2 hashing.
-- **REST API**: Complete CRUD operations and role-based access control.
-- **Modern Stack**: React 18, TailwindCSS, and PostgreSQL (Neon).
+TaskAPI is built to handle complex task management and authentication flows with ease. Leveraging a powerful tech stack, it provides a robust foundation for building data-driven applications that require secure user access and efficient data processing.
 
-## Getting Started
+### Key Features
 
-### Prerequisites
+- **Advanced Authentication**: Implements secure, JWT-based authentication combined with industry-standard password hashing using Argon2.
+- **Scalable REST API**: A fully-featured API supporting comprehensive CRUD (Create, Read, Update, Delete) operations, built with modularity in mind.
+- **Fine-Grained Access Control**: Role-based permissions ensuring that only authorized users can access specific resources and administrative tools.
+- **Dynamic Frontend**: A beautiful, glassmorphic UI built with React 18 and TailwindCSS, featuring smooth animations and responsive layouts.
+- **Robust Backend**: Powered by Hono and deployed on globally distributed infrastructure for maximum performance and reliability.
+- **Automated Deployment**: Integrated with GitHub Actions for seamless continuous deployment (CI/CD) to GitHub Pages.
 
-- Node.js (v20+)
-- npm
+## Technical Architecture
 
-### Installation
+The project follows a modern monorepo-style structure, separating concerns between the core API logic, the web interface, and shared utilities.
 
-1. Install dependencies:
-   ```bash
-   npm install --legacy-peer-deps
-   ```
+- **Frontend**: React, React Router (v7), Lucide Icons, Framer Motion.
+- **Backend & Routing**: Hono, Node.js.
+- **Database**: PostgreSQL (Neon Serverless).
+- **Styling**: TailwindCSS with custom design tokens.
+- **Build Tooling**: Vite 6, TypeScript.
 
-2. Start the development server:
-   ```bash
-   npm run dev
-   ```
+## Live Demo
 
-3. Build for production:
-   ```bash
-   npm run build
-   npm run start
-   ```
+Experience TaskAPI in action: [https://sreej1305.github.io/TaskAPI/](https://sreej1305.github.io/TaskAPI/)
 
-## Deployment
-
-### Vercel (Recommended)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsreej1305%2FTaskAPI)
-
-1. Click the button above.
-2. Ensure usage of `npm install --legacy-peer-deps`.
-3. Set your environment variables (`DATABASE_URL`, `AUTH_SECRET`).
-
-## License
-
-MIT
+---
+*Developed with a focus on code quality, performance, and user experience.*
