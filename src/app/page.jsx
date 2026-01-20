@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import {
   ArrowRight,
   Shield,
@@ -24,26 +25,26 @@ export default function HomePage() {
               </h1>
             </div>
             <div className="flex gap-3">
-              <a
-                href="/chat"
+              <Link
+                to="/chat"
                 className="flex items-center gap-2 rounded-xl border-2 border-purple-200 bg-gradient-to-r from-[#FFB8D9] to-[#E6CBF7] px-4 py-2.5 text-sm font-semibold text-white shadow-md transition-all hover:scale-105 hover:shadow-lg"
               >
                 <MessageCircle className="h-4 w-4" />
                 Chat Assistant
-              </a>
-              <a
-                href="/register"
+              </Link>
+              <Link
+                to="/register"
                 className="group relative overflow-hidden rounded-xl bg-gradient-to-r from-blue-600 to-purple-600 px-6 py-2.5 text-sm font-semibold text-white shadow-lg transition-all hover:scale-105 hover:shadow-xl"
               >
                 <span className="relative z-10">Get Started</span>
                 <div className="absolute inset-0 -z-0 bg-gradient-to-r from-purple-600 to-blue-600 opacity-0 transition-opacity group-hover:opacity-100"></div>
-              </a>
-              <a
-                href="/login"
+              </Link>
+              <Link
+                to="/login"
                 className="rounded-xl border-2 border-purple-200 bg-white px-6 py-2.5 text-sm font-semibold text-purple-700 shadow-md transition-all hover:scale-105 hover:border-purple-300 hover:bg-purple-50 hover:shadow-lg"
               >
                 Sign In
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -70,26 +71,27 @@ export default function HomePage() {
             role-based access control, and comprehensive CRUD operations.
           </p>
           <div className="mt-10 flex justify-center gap-4">
-            <a
-              href="/register"
+            <Link
+              to="/register"
               className="group flex items-center gap-2 rounded-xl bg-gradient-to-r from-blue-600 to-purple-600 px-8 py-4 text-lg font-bold text-white shadow-2xl transition-all hover:scale-110 hover:shadow-3xl"
             >
               Try Demo
               <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
-            </a>
-            <a
-              href="/docs"
+            </Link>
+            <Link
+              to="/docs"
               className="group flex items-center gap-2 rounded-xl border-2 border-purple-200 bg-white px-8 py-4 text-lg font-bold text-purple-700 shadow-xl transition-all hover:scale-110 hover:border-purple-400 hover:bg-purple-50 hover:shadow-2xl"
             >
               <Code className="h-5 w-5" />
               API Docs
-            </a>
+            </Link>
           </div>
         </div>
       </section>
 
       {/* Features */}
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+        {/* ... features content ... */}
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           <div className="group rounded-2xl border-2 border-blue-100 bg-white p-8 shadow-xl transition-all hover:scale-105 hover:border-blue-300 hover:shadow-2xl">
             <div className="mb-4 inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-500 to-blue-600 shadow-lg transition-all group-hover:scale-110 group-hover:shadow-xl group-hover:rotate-6">
