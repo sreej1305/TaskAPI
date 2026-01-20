@@ -245,3 +245,9 @@ export default function HomePage() {
     </div>
   );
 }
+export const meta = () => {
+  return [
+    { title: "TaskAPI - Scalable REST API" },
+    { name: "description", content: "A production-ready AI full-stack web application" },
+  ];
+};
