@@ -1,1 +1,0 @@
-import{c as r}from"./createLucideIcon-DvkGdfm2.js";if(typeof window<"u"){const n={};globalThis.process??={};const o=globalThis.process.env??{};globalThis.process.env=new Proxy(Object.assign({},n,o),{get(e,s){return s in e?e[s]:void 0},has(){return!0}})}const i=r("MessageCircle",[["path",{d:"M7.9 20A9 9 0 1 0 4 16.1L2 22Z",key:"vv11sd"}]]);export{i as M};
